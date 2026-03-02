@@ -1,9 +1,7 @@
 ---
-title: "
-git add .
-git commit -m 'publish: set draft to false for my first post'
-git push
-"
-date: 2026-03-02T19:49:00+08:00
-draft: false  <-- 改为 false，或者直接删掉这行
+title: "我的测试文章"
+date: 2026-03-01T12:00:00+08:00
+draft: false
+tags: ["test"]
+categories: ["demo"]
 ---
