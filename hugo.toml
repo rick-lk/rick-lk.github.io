@@ -1,0 +1,55 @@
+baseURL = 'https://rick-lk.github.io/'
+languageCode = 'zh-cn'
+title = '我的个人博客'
+theme = 'PaperMod' # 必须与 themes 文件夹下的名称一致
+
+# PaperMod 特有配置示例
+[params]
+  env = "production"
+  defaultTheme = "auto" # dark/light/auto
+  ShowReadingTime = true
+  ShowShareButtons = true
+  ShowPostNavLinks = true
+  ShowBreadCrumbs = true
+  ShowCodeCopyButtons = true
+  ShowWordCount = true
+  ShowRssButtonInSectionTermList = true
+  UseHugoToc = true
+  DisableSpecial1stPage = false
+  DisableScrollToTop = false
+  comments = false
+  hidemeta = false
+  disableShare = false
+  disableHLJS = false
+  disableAnchoredHeadings = false
+  ShowFullTextinRSS = true
+  disableFlatDeps = false
+  ShowToc = true
+  TocOpen = true
+  profileMode = { enabled = false, title = "ExampleSite", subtitle = "example description", imageUrl = "<img location>", imageTitle = "my image", imageWidth = 150, imageHeight = 150 }
+  socialIcons = [ { name = "github", url = "https://github.com/rick-lk" }, { name = "twitter", url = "https://twitter.com/rick-lk" } ]
+  editPost = { URL = "https://github.com/rick-lk/rick-lk.github.io/tree/main/content", Text = "Suggest Changes", appendFilePath = true }
+  assets = { disableHLJS = true }
+  cover = { hidden = true, hiddenInList = true, hiddenInSingle = true }
+  label = { text = "Home", icon = "<svg>...</svg>", iconHeight = 35 }
+  analytics = { google = { SiteVerificationTag = "XYZabc" }, bing = { SiteVerificationTag = "XYZabc" }, yandex = { SiteVerificationTag = "XYZabc" } }
+  
+[menu]
+  [[menu.main]]
+    identifier = "categories"
+    name = "categories"
+    url = "/categories/"
+    weight = 10
+  [[menu.main]]
+    identifier = "tags"
+    name = "tags"
+    url = "/tags/"
+    weight = 20
+  [[menu.main]]
+    identifier = "about"
+    name = "about"
+    url = "/about/"
+    weight = 30
+
+[outputs]
+  home = ["HTML", "RSS", "JSON"]
