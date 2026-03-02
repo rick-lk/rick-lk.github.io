@@ -2,7 +2,7 @@
 title: "我的第一篇文章"
 date: 2026-03-01T18:55:00+08:00
 draft: false
-buildDrafts = true  
+buildDrafts : true  
 tags: ["Hugo", "Blog"]
 categories: ["Tech"]
 ---
